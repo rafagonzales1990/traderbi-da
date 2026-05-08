@@ -108,6 +108,10 @@ function RegistrationForm() {
       setError("Erro ao salvar. Tente novamente.");
     } else {
       setSuccess(true);
+      setTimeout(() => {
+        window.location.href =
+          "https://app.traderbi.com.br/signup?tag=dollar-academy";
+      }, 2000);
     }
   };
 
@@ -123,7 +127,7 @@ function RegistrationForm() {
 
         {success ? (
           <p className="mt-10 rounded-lg border border-emerald-500/30 bg-emerald-500/10 p-6 text-center text-sm text-emerald-300">
-            Cadastro realizado! Entraremos em contato.
+            Cadastro realizado! Redirecionando para criar sua conta...
           </p>
         ) : (
           <form onSubmit={handleSubmit} className="mt-10 flex flex-col gap-4" noValidate>
