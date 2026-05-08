@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   title: "Dollar Academy",
   description:
     "Inscreva-se no Dollar Academy — o desafio para traders brasileiros",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
