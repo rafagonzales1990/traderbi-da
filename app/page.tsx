@@ -35,8 +35,18 @@ function Hero() {
         }}
       />
       <div className="relative mx-auto flex w-full max-w-6xl flex-col items-center px-6 pt-24 pb-32 text-center sm:pt-32">
-        <div className="mb-12 flex h-20 w-[200px] items-center justify-center rounded-md border border-dashed border-white/20 text-xs uppercase tracking-widest text-white/40">
-          [ Logo Dollar Academy ]
+        <div className="flex items-center justify-center gap-6 mb-8">
+          <img
+            src="/logo_da.png"
+            alt="Dollar Academy"
+            className="h-14 w-auto object-contain"
+          />
+          <div className="w-px h-10 bg-white/20" />
+          <img
+            src="/logo_tbi.png"
+            alt="TraderBI"
+            className="h-10 w-auto object-contain"
+          />
         </div>
 
         <h1 className="text-5xl font-semibold tracking-tight sm:text-6xl">
@@ -62,7 +72,7 @@ function WhatIs() {
     <section className="border-t border-white/5 py-24">
       <div className="mx-auto w-full max-w-3xl px-6">
         <h2 className="text-center text-3xl font-semibold tracking-tight sm:text-4xl">
-          O que é o Dollar Academy?
+          Como funciona o desafio?
         </h2>
         <div className="mt-10 rounded-2xl border border-[#7850DC]/40 bg-[#7850DC]/5 p-10 text-center">
           <p className="text-lg text-white/70">Em breve</p>
