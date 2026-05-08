@@ -39,13 +39,13 @@ function Hero() {
           <img
             src="/logo_da.png"
             alt="Dollar Academy"
-            className="h-14 w-auto object-contain"
+            className="h-20 w-auto object-contain"
           />
-          <div className="w-px h-10 bg-white/20" />
+          <div className="w-px h-16 bg-white/20" />
           <img
             src="/logo_tbi.png"
             alt="TraderBI"
-            className="h-10 w-auto object-contain"
+            className="h-16 w-auto object-contain"
           />
         </div>
 
